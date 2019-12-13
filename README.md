@@ -1,6 +1,6 @@
 # README
 
-Pokemon Instagram API serves as the backend to Pokemon Instagram (https://github.com/jgibbel/poke_insta_frontend). 
+Pokemon Instagram API serves as the backend to Pokemon Instagram (https://github.com/BennyLouie/poke_insta_frontend). 
 
 The models used in this project are Pokemon, Follows, Likes, and Posts. Pokemon have a species, avatar image, and their Pokedex number. Posts have a caption, Pokemon, and image. Likes is a simple joiner model between a Pokemon and a Post. Follows is a more interesting model. It joins two separate instances of Pokemon, so its model defines custom attributes for the Pokemon who is following and the Pokemon who is being followed. In the follow.rb model file the relationship looks like this: 
 
